@@ -37,7 +37,9 @@ Create required files
 
 ### 3. Docker Configuration
 In the project directory:
+
 Create Dockerfile
+
 Create docker-compose.yml
 
 ### 4. Deployment Steps
