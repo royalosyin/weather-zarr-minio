@@ -58,12 +58,19 @@ After services start, you can access through the following addresses:
 
 ### 6. API Usage Examples
 1. Query all data for a specific location:
+ 
 curl "http://localhost:8000/data/testdata/weather.zarr?lat=35.6762&lon=139.6503"
-2. Query specific variables:
+
+3. Query specific variables:
+
 curl "http://localhost:8000/data/testdata/weather.zarr?lat=35.6762&lon=139.6503&variables=temperature,humidity"
-3. Query data for a specific time:
+
+4. Query data for a specific time:
+
 curl "http://localhost:8000/data/testdata/weather.zarr?lat=35.6762&lon=139.6503&time=2023-07-01"
-4. View dataset metadata:
+
+5. View dataset metadata:
+
 curl "http://localhost:8000/metadata/testdata/weather.zarr"
 
 ### 7. Dataset Characteristics
